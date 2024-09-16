@@ -2,6 +2,6 @@
 
 Pessoa p = new Pessoa();
 
-p.nome = "Rafaella";
-p.idade = 26;
+p.Nome = "Rafaella";
+p.Idade = 26;
 p.Apresentar();
