@@ -57,3 +57,21 @@ if (quantidadeEmEstoque == 0){
 }
 
 Console.WriteLine("Venda possível? " + possivelVenda);
+
+//SWITCH CASE
+
+Console.WriteLine("Digite uma letra: ");
+string letra = Console.ReadLine();
+
+switch (letra){
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        Console.WriteLine("VOGAL");
+        break;
+    default:
+        Console.WriteLine("CONSOANTE");
+        break;
+}
