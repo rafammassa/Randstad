@@ -33,3 +33,11 @@ Console.WriteLine(f);
 int g = 7;
 double h = g;
 Console.WriteLine(h); //Um inteiro cabe dentro de um double, converte automaticamente
+
+//TryParse
+string i = "15-";
+int j = 27;
+
+int.TryParse(i, out j);
+Console.WriteLine(j);
+Console.WriteLine("Conversão realizada com sucesso!");
