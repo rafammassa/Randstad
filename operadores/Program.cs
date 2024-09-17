@@ -17,3 +17,9 @@ Console.WriteLine(d);
 
 int e = int.Parse("6");
 Console.WriteLine(e);
+
+//Covert x Parse
+e = Convert.ToInt32(null); //retorna 0
+Console.WriteLine(e);
+
+//e = int.Parse(null); EXCEPTION
