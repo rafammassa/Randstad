@@ -86,3 +86,14 @@ bool autorizacaoResponsavel = false;
  } else {
     Console.WriteLine("Entrada proibida");
  }
+
+ //AND
+
+ bool presencaMinima = true;
+ double media = 7.5;
+
+ if (presencaMinima && media >= 7){
+    Console.WriteLine("Aprovado");
+ } else {
+    Console.WriteLine("Reprovado");
+ }
