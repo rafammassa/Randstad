@@ -41,3 +41,15 @@ int j = 27;
 int.TryParse(i, out j);
 Console.WriteLine(j);
 Console.WriteLine("Conversão realizada com sucesso!");
+
+//----- OPERADORES CONDICIONAIS -----
+
+int quantidadeEmEstoque = 10;
+int quantidadeCompra = 4;
+
+if (quantidadeEmEstoque >= quantidadeCompra)
+{
+    Console.WriteLine("Venda realizada!");
+} else {
+    Console.WriteLine("Desculpe, não temos a quantidade desejada em estoque!");
+}
