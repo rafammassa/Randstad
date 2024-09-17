@@ -23,3 +23,8 @@ e = Convert.ToInt32(null); //retorna 0
 Console.WriteLine(e);
 
 //e = int.Parse(null); EXCEPTION
+
+//Convertendo para String
+int inteiro = 9658;
+string f = inteiro.ToString();
+Console.WriteLine(f);
