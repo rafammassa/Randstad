@@ -46,10 +46,14 @@ Console.WriteLine("Conversão realizada com sucesso!");
 
 int quantidadeEmEstoque = 10;
 int quantidadeCompra = 4;
+bool possivelVenda = quantidadeEmEstoque > 0 && quantidadeEmEstoque >= quantidadeCompra;
 
-if (quantidadeEmEstoque >= quantidadeCompra)
-{
+if (quantidadeEmEstoque == 0){
+    Console.WriteLine("Venda inválida!");
+} else if (quantidadeEmEstoque >= quantidadeCompra){
     Console.WriteLine("Venda realizada!");
 } else {
     Console.WriteLine("Desculpe, não temos a quantidade desejada em estoque!");
 }
+
+Console.WriteLine("Venda possível? " + possivelVenda);
