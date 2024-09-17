@@ -28,3 +28,8 @@ Console.WriteLine(e);
 int inteiro = 9658;
 string f = inteiro.ToString();
 Console.WriteLine(f);
+
+//Cast Implícito
+int g = 7;
+double h = g;
+Console.WriteLine(h); //Um inteiro cabe dentro de um double, converte automaticamente
