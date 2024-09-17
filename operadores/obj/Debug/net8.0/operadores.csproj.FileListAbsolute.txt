@@ -1,0 +1,15 @@
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\operadores\bin\Debug\net8.0\operadores.exe
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\operadores\bin\Debug\net8.0\operadores.deps.json
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\operadores\bin\Debug\net8.0\operadores.runtimeconfig.json
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\operadores\bin\Debug\net8.0\operadores.dll
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\operadores\bin\Debug\net8.0\operadores.pdb
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\operadores\obj\Debug\net8.0\operadores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\operadores\obj\Debug\net8.0\operadores.AssemblyInfoInputs.cache
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\operadores\obj\Debug\net8.0\operadores.AssemblyInfo.cs
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\operadores\obj\Debug\net8.0\operadores.csproj.CoreCompileInputs.cache
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\operadores\obj\Debug\net8.0\operadores.sourcelink.json
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\operadores\obj\Debug\net8.0\operadores.dll
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\operadores\obj\Debug\net8.0\refint\operadores.dll
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\operadores\obj\Debug\net8.0\operadores.pdb
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\operadores\obj\Debug\net8.0\operadores.genruntimeconfig.cache
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\operadores\obj\Debug\net8.0\ref\operadores.dll
