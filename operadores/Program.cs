@@ -75,3 +75,14 @@ switch (letra){
         Console.WriteLine("CONSOANTE");
         break;
 }
+
+// ----- OPERADOR LÓGICO ----- 
+//OR
+
+bool maiorIdade = true;
+bool autorizacaoResponsavel = false;
+ if (maiorIdade || autorizacaoResponsavel){
+    Console.WriteLine("Entrada liberada!");
+ } else {
+    Console.WriteLine("Entrada proibida");
+ }
