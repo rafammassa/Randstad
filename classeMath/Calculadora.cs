@@ -38,4 +38,8 @@
         x--;
         Console.WriteLine("Decremento: " + x);
     }
+    public void RaizQuadradada (double x){
+        double raiz = Math.Sqrt(x);
+        Console.WriteLine($"Raiz quadrada de {x} = {raiz}");
+    }
 }
