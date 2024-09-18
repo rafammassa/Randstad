@@ -1,0 +1,15 @@
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\estruturasDeRepeticao\bin\Debug\net8.0\estruturasDeRepeticao.exe
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\estruturasDeRepeticao\bin\Debug\net8.0\estruturasDeRepeticao.deps.json
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\estruturasDeRepeticao\bin\Debug\net8.0\estruturasDeRepeticao.runtimeconfig.json
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\estruturasDeRepeticao\bin\Debug\net8.0\estruturasDeRepeticao.dll
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\estruturasDeRepeticao\bin\Debug\net8.0\estruturasDeRepeticao.pdb
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\estruturasDeRepeticao\obj\Debug\net8.0\estruturasDeRepeticao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\estruturasDeRepeticao\obj\Debug\net8.0\estruturasDeRepeticao.AssemblyInfoInputs.cache
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\estruturasDeRepeticao\obj\Debug\net8.0\estruturasDeRepeticao.AssemblyInfo.cs
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\estruturasDeRepeticao\obj\Debug\net8.0\estruturasDeRepeticao.csproj.CoreCompileInputs.cache
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\estruturasDeRepeticao\obj\Debug\net8.0\estruturasDeRepeticao.sourcelink.json
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\estruturasDeRepeticao\obj\Debug\net8.0\estruturasDeRepeticao.dll
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\estruturasDeRepeticao\obj\Debug\net8.0\refint\estruturasDeRepeticao.dll
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\estruturasDeRepeticao\obj\Debug\net8.0\estruturasDeRepeticao.pdb
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\estruturasDeRepeticao\obj\Debug\net8.0\estruturasDeRepeticao.genruntimeconfig.cache
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\estruturasDeRepeticao\obj\Debug\net8.0\ref\estruturasDeRepeticao.dll
