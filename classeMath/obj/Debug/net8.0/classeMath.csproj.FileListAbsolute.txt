@@ -1,0 +1,15 @@
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\classeMath\bin\Debug\net8.0\classeMath.exe
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\classeMath\bin\Debug\net8.0\classeMath.deps.json
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\classeMath\bin\Debug\net8.0\classeMath.runtimeconfig.json
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\classeMath\bin\Debug\net8.0\classeMath.dll
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\classeMath\bin\Debug\net8.0\classeMath.pdb
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\classeMath\obj\Debug\net8.0\classeMath.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\classeMath\obj\Debug\net8.0\classeMath.AssemblyInfoInputs.cache
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\classeMath\obj\Debug\net8.0\classeMath.AssemblyInfo.cs
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\classeMath\obj\Debug\net8.0\classeMath.csproj.CoreCompileInputs.cache
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\classeMath\obj\Debug\net8.0\classeMath.sourcelink.json
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\classeMath\obj\Debug\net8.0\classeMath.dll
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\classeMath\obj\Debug\net8.0\refint\classeMath.dll
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\classeMath\obj\Debug\net8.0\classeMath.pdb
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\classeMath\obj\Debug\net8.0\classeMath.genruntimeconfig.cache
+C:\Users\rafae\OneDrive\Área de Trabalho\workspace\randstad\classeMath\obj\Debug\net8.0\ref\classeMath.dll
