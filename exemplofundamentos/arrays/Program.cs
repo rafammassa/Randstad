@@ -7,3 +7,10 @@ for (int i = 0; i < arrayInteiros.Length; i++)
 {
     Console.WriteLine($"Posição n°{i} - {arrayInteiros[i]}");
 }
+
+Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+
+foreach (int valor in arrayInteiros)
+{
+    Console.WriteLine(valor);
+}
