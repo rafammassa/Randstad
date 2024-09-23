@@ -17,3 +17,20 @@ foreach (int valor in arrayInteiros)
 
 int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
 Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+
+List<string> listaString = new List<string>();
+listaString.Add("SP");
+listaString.Add("BA");
+listaString.Add("MG");
+
+for (int i = 0; i < listaString.Count; i++)
+{
+    Console.WriteLine($"Posição nº {i} - {listaString[i]}");
+}
+
+Console.WriteLine($"Itens da minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+listaString.Remove("BA");
+
+Console.WriteLine($"Itens da minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
