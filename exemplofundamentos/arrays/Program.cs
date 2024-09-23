@@ -14,3 +14,6 @@ foreach (int valor in arrayInteiros)
 {
     Console.WriteLine(valor);
 }
+
+int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
+Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
