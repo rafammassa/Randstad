@@ -39,8 +39,11 @@ namespace ExemploExplorando.Models
 
             set
             {
-                throw new ArgumentException("A idade deve ser maior que 0.");
-
+                if (value < 0)
+                {
+                    throw new ArgumentException("A idade deve ser maior que 0.");
+                }
+                
                 _idade = value;
             }
         }
