@@ -10,10 +10,10 @@ namespace ExemploExplorando.Models
         private string _nome;
         public string Nome 
         {
-            get
-            {
-                return _nome.ToUpper(); //toupper deixa tudo maiúsculo
-            }
+            get => _nome.ToUpper(); 
+            //toupper deixa tudo maiúsculo
+            //=> substitui o return
+            
             set
             {
                 if (value == "")
