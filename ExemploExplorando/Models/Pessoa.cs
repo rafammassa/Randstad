@@ -8,12 +8,13 @@ namespace ExemploExplorando.Models
     public class Pessoa
     {
         private string _nome;
+        private int _idade;
         public string Nome 
         {
             get => _nome.ToUpper(); 
             //toupper deixa tudo maiúsculo
             //=> substitui o return
-            
+
             set
             {
                 if (value == "")
@@ -24,7 +25,17 @@ namespace ExemploExplorando.Models
                 _nome = value;
             }
         }
-        public int Idade { get; set; }
+        public int Idade 
+        { 
+            get => _idade;
+            
+            set
+            {
+                throw new ArgumentException("A idade deve ser maior que 0.");
+
+                _idade = value;
+            }
+        }
 
         public void Apresentar()
         {
