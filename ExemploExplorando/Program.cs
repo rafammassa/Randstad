@@ -19,3 +19,7 @@ cursodeIngles.Alunos = new List<Pessoa>();
 cursodeIngles.AdicionarAluno(p1);
 cursodeIngles.AdicionarAluno(p2);
 cursodeIngles.ListarAlunos();
+
+Pessoa p3 = new Pessoa("Paloma", "Machado");
+p3.Idade = 25;
+p3.Apresentar();

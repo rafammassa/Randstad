@@ -7,6 +7,16 @@ namespace ExemploExplorando.Models
 {
     public class Pessoa
     {
+        public Pessoa()
+        {
+
+        }
+        
+        public Pessoa(string nome, string sobrenome)
+        {
+
+        }
+
         private string _nome;
         private int _idade;
         public string Nome 
@@ -43,7 +53,7 @@ namespace ExemploExplorando.Models
                 {
                     throw new ArgumentException("A idade deve ser maior que 0.");
                 }
-                
+
                 _idade = value;
             }
         }
