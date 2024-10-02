@@ -14,7 +14,8 @@ namespace ExemploExplorando.Models
         
         public Pessoa(string nome, string sobrenome)
         {
-
+            Nome = nome;
+            Sobrenome = sobrenome;
         }
 
         private string _nome;
