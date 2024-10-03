@@ -23,3 +23,7 @@ cursodeIngles.ListarAlunos();
 Pessoa p3 = new Pessoa("Paloma", "Machado");
 p3.Idade = 25;
 p3.Apresentar();
+
+decimal valorMonetario = 1582.40M;
+Console.WriteLine($"{valorMonetario:C}");
+//:C converte para valor monetário configurado na máquina
