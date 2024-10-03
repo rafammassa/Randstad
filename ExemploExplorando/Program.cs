@@ -31,3 +31,5 @@ Console.WriteLine($"{valorMonetario:C}");
 
 CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
 Console.WriteLine($"{valorMonetario:C}");
+
+Console.WriteLine(valorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("es-ES")));
