@@ -39,3 +39,7 @@ Console.WriteLine(porcentagem.ToString("P"));
 
 int numero = 123456;
 Console.WriteLine(numero.ToString("##-##-##"));
+
+DateTime data = DateTime.Now;
+Console.WriteLine(data);
+Console.WriteLine(data.ToString("dd/MM/yy HH:mm"));
