@@ -43,3 +43,9 @@ Console.WriteLine(numero.ToString("##-##-##"));
 DateTime data = DateTime.Now;
 Console.WriteLine(data);
 Console.WriteLine(data.ToString("dd/MM/yy HH:mm"));
+Console.WriteLine(data.ToShortDateString());
+
+CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR");
+
+DateTime data2 = DateTime.Parse("17/04/2022 18:00");
+Console.WriteLine(data2);
