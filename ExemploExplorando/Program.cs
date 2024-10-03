@@ -33,3 +33,9 @@ CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
 Console.WriteLine($"{valorMonetario:C}");
 
 Console.WriteLine(valorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("es-ES")));
+
+double porcentagem = .3421;
+Console.WriteLine(porcentagem.ToString("P"));
+
+int numero = 123456;
+Console.WriteLine(numero.ToString("##-##-##"));
