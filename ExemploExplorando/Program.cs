@@ -1,4 +1,5 @@
 ﻿using ExemploExplorando.Models;
+using System.Globalization;
 
 Pessoa p1 = new Pessoa();
 p1.Nome = "Rafaella";
@@ -27,3 +28,6 @@ p3.Apresentar();
 decimal valorMonetario = 1582.40M;
 Console.WriteLine($"{valorMonetario:C}");
 //:C converte para valor monetário configurado na máquina
+
+CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
+Console.WriteLine($"{valorMonetario:C}");
