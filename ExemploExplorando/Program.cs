@@ -58,7 +58,19 @@ try
     {
         Console.WriteLine(linha);
     }
-} catch (Exception ex)
+} 
+
+catch (FileNotFoundException ex)
+{
+    Console.WriteLine($"Ocorreu uma exceção genérica. O arquivo não foi encontrado. {ex.Message}");
+}
+
+catch (DirectoryNotFoundException ex)
+{
+    Console.WriteLine($"Ocorreu uma exceção genérica. O diretório não foi encontrado. {ex.Message}");
+}
+
+catch (Exception ex)
 {
     Console.WriteLine($"Ocorreu uma exceção genérica. {ex.Message}");
 }
