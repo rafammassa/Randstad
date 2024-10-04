@@ -50,7 +50,7 @@ CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR");
 DateTime data2 = DateTime.Parse("17/04/2022 18:00");
 Console.WriteLine(data2);
 
-string[] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
+string[] linhas = File.ReadAllLines("Arquivos/arquivo-Leitura.txt");
 
 foreach (string linha in linhas)
 {
