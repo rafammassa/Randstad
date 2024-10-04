@@ -78,3 +78,5 @@ finally
 {
     Console.WriteLine("Chegou até aqui!");
 }
+
+new ExemploExcecao().Metodo1();
