@@ -80,3 +80,22 @@ finally
 }
 
 new ExemploExcecao().Metodo1();
+
+Queue<int> fila = new Queue<int>();
+fila.Enqueue(2); //Adicionando elemento a fila
+fila.Enqueue(4);
+fila.Enqueue(6);
+fila.Enqueue(8);
+
+foreach (var item in fila)
+{
+    Console.WriteLine(item);
+}
+
+Console.WriteLine($"Removendo o elemento: {fila.Dequeue()}");
+fila.Enqueue(10);
+
+foreach (var item in fila)
+{
+    Console.WriteLine(item);
+}
