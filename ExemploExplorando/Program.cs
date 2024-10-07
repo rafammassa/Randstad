@@ -120,3 +120,15 @@ foreach (var item in pilha)
 {
     Console.WriteLine(item);
 }
+
+Dictionary<string, string> estados = new Dictionary<string, string>();
+
+estados.Add("SP", "São Paulo");
+estados.Add("BA", "Bahia");
+estados.Add("MG", "Minas Gerais");
+
+foreach(KeyValuePair<string, string> item in estados)
+//KeyValuePair<string, string> pode ser substituido por var
+{
+    Console.WriteLine($"Chave: {item.Key} Valor: {item.Value}");
+}
