@@ -178,3 +178,19 @@ Pessoa p4 = new Pessoa("Yolanda", "Rothig");
 (string nome, string sobrenome) = p4;
 
 Console.WriteLine($"{nome} {sobrenome}");
+
+
+Console.WriteLine("Digite um número: ");
+int numero1 = Convert.ToInt32(Console.ReadLine());
+
+//IF TERNÁRIO
+bool ehPar = false;
+
+ehPar = numero1 %2 == 0;
+Console.WriteLine($"O número {numero1} é " + (ehPar ? "par" : "ímpar"));
+
+//if(numero1 % 2 == 0){
+//    Console.WriteLine($"O número {numero1} é par.");
+//} else {
+//    Console.WriteLine($"O número {numero1} é ímpar.");
+//}
