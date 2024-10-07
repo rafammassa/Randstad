@@ -173,3 +173,8 @@ if(sucesso)
 } else {
     Console.WriteLine("Não foi possível ler o arquivo.");
 }
+
+Pessoa p4 = new Pessoa("Yolanda", "Rothig");
+(string nome, string sobrenome) = p4;
+
+Console.WriteLine($"{nome} {sobrenome}");
