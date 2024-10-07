@@ -7,7 +7,7 @@ namespace ExemploExplorando.Models
 {
     public class LeituraArquivo
     {
-        public (bool Sucesso, string [] Linhas, int) lerArquivo(string caminho)
+        public (bool Sucesso, string [] Linhas, int) LerArquivo(string caminho)
         {
             try
             {
