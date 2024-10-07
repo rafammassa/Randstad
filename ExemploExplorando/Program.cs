@@ -132,3 +132,23 @@ foreach(KeyValuePair<string, string> item in estados)
 {
     Console.WriteLine($"Chave: {item.Key} Valor: {item.Value}");
 }
+
+estados.Remove("BA");
+estados["SP"] = "São Paulo - valor alterado";
+
+foreach(var item in estados)
+{
+    Console.WriteLine($"Chave: {item.Key} Valor: {item.Value}");
+}
+
+string chave = "BA";
+Console.WriteLine($"Verificando o elemento {chave}");
+
+if (estados.ContainsKey(chave))
+{
+    Console.WriteLine($"Valor existente. {chave}");
+} else{
+    Console.WriteLine($"Valor não encontrado. É seguro adicionar a chave {chave}");
+}
+
+Console.WriteLine(estados["MG"]);
