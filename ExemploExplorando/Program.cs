@@ -196,7 +196,7 @@ Console.WriteLine($"{nome} {sobrenome}");
 //    Console.WriteLine($"O número {numero1} é ímpar.");
 //}
 
-DateTime dataAtual = DateTime.Now;
+/*DateTime dataAtual = DateTime.Now;
 
 List<Venda> vendas = new List<Venda>();
 
@@ -211,3 +211,13 @@ string serializado = JsonConvert.SerializeObject(vendas, Formatting.Indented);
 File.WriteAllText("Arquivos/vendas.json", serializado);
 
 Console.WriteLine(serializado);
+*/
+
+string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+foreach (Venda venda in listaVenda)
+{
+    Console.WriteLine($"Id: {venda.Id} Produto: {venda.Produto} Preço: {venda.Preco} Data da venda: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}");
+}
