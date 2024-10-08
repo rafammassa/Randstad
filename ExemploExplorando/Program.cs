@@ -196,9 +196,15 @@ Console.WriteLine($"{nome} {sobrenome}");
 //    Console.WriteLine($"O número {numero1} é ímpar.");
 //}
 
-Venda v1 = new Venda(1, "Material de escritório", 25.00M);
+List<Venda> vendas = new List<Venda>();
 
-string serializado = JsonConvert.SerializeObject(v1, Formatting.Indented);
+Venda v1 = new Venda(1, "Material de escritório", 25.00M);
+Venda v2 = new Venda(2, "Licença de Software", 110.00M);
+
+vendas.Add(v1);
+vendas.Add(v2);
+
+string serializado = JsonConvert.SerializeObject(vendas, Formatting.Indented);
 
 File.WriteAllText("Arquivos/vendas.json", serializado);
 
