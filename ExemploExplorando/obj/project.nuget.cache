@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "t6NOH3u/744=",
+  "dgSpecHash": "PU4d4eXLhz0=",
   "success": true,
   "projectFilePath": "C:\\Users\\rafae\\OneDrive\\Área de Trabalho\\workspace\\randstad\\ExemploExplorando\\ExemploExplorando.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\rafae\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
