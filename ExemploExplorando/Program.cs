@@ -196,10 +196,12 @@ Console.WriteLine($"{nome} {sobrenome}");
 //    Console.WriteLine($"O número {numero1} é ímpar.");
 //}
 
+DateTime dataAtual = DateTime.Now;
+
 List<Venda> vendas = new List<Venda>();
 
-Venda v1 = new Venda(1, "Material de escritório", 25.00M);
-Venda v2 = new Venda(2, "Licença de Software", 110.00M);
+Venda v1 = new Venda(1, "Material de escritório", 25.00M, dataAtual);
+Venda v2 = new Venda(2, "Licença de Software", 110.00M, dataAtual);
 
 vendas.Add(v1);
 vendas.Add(v2);
