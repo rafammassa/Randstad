@@ -221,3 +221,12 @@ foreach (Venda venda in listaVenda)
 {
     Console.WriteLine($"Id: {venda.Id} Produto: {venda.Produto} Preço: {venda.Preco} Data da venda: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}");
 }
+
+bool? desejaReceberEmail = null;
+
+if (desejaReceberEmail.HasValue && desejaReceberEmail.Value)
+{
+    Console.WriteLine("O usuário optou por receber email");
+} else {
+    Console.WriteLine("O usuário não respondeu ou optou por não receber email");
+}
