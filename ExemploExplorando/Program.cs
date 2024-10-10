@@ -232,3 +232,8 @@ if (desejaReceberEmail.HasValue && desejaReceberEmail.Value)
 } else {
     Console.WriteLine("O usuário não respondeu ou optou por não receber email");
 }
+
+var tipoAnonimo = new { Nome = "Rafaella", Sobrenome = "Massa", Altura = "1,60"};
+Console.WriteLine($"Nome: {tipoAnonimo.Nome}");
+Console.WriteLine($"Sobrenome: {tipoAnonimo.Sobrenome}");
+Console.WriteLine($"Altura: {tipoAnonimo.Altura}");
