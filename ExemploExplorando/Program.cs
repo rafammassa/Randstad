@@ -217,6 +217,12 @@ string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
 
 List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
 
+var listaAnonimo = listaVenda.Select(x => new {x.Produto, x.Preco});
+foreach(var vendaAnonimo in listaAnonimo)
+{
+    Console.WriteLine($"Produto: {vendaAnonimo.Produto} Preço: {vendaAnonimo.Preco}");
+}
+
 foreach (Venda venda in listaVenda)
 {
     Console.WriteLine($"Id: {venda.Id} Produto: {venda.Produto}, " +
