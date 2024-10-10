@@ -243,3 +243,12 @@ var tipoAnonimo = new { Nome = "Rafaella", Sobrenome = "Massa", Altura = "1,60"}
 Console.WriteLine($"Nome: {tipoAnonimo.Nome}");
 Console.WriteLine($"Sobrenome: {tipoAnonimo.Sobrenome}");
 Console.WriteLine($"Altura: {tipoAnonimo.Altura}");
+
+dynamic variavelDinamica = 4;
+Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()} Valor: {variavelDinamica}");
+
+variavelDinamica = "Texto";
+Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()} Valor: {variavelDinamica}");
+
+variavelDinamica = true;
+Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()} Valor: {variavelDinamica}");
