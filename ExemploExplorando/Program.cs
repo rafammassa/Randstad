@@ -185,9 +185,10 @@ Console.WriteLine($"{nome} {sobrenome}");
 //int numero1 = Convert.ToInt32(Console.ReadLine());
 
 //IF TERNÁRIO
-//bool ehPar = false;
+//int numero = 20;
+//bool par = false;
 
-//ehPar = numero1 %2 == 0;
+//par = numero.ehPar();
 //Console.WriteLine($"O número {numero1} é " + (ehPar ? "par" : "ímpar"));
 
 //if(numero1 % 2 == 0){
