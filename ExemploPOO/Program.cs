@@ -12,14 +12,12 @@
 //c1.Sacar(500);
 //c1.ExibirSaldo();
 
-Aluno a1 = new Aluno();
-a1.Nome = "Eduardo";
+Aluno a1 = new Aluno("Eduardo");
 a1.Idade = 24;
 a1.Nota = 10;
 a1.Apresentar();
 
-Professor p1 = new Professor();
-p1.Nome = "Paloma";
+Professor p1 = new Professor("Paloma");
 p1.Idade = 30;
 p1.Salario = 1000;
 p1.Apresentar();
