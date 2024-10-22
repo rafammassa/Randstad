@@ -11,3 +11,9 @@ ContaCorrente c1 = new ContaCorrente(1589, 1000);
 c1.ExibirSaldo();
 c1.Sacar(500);
 c1.ExibirSaldo();
+
+Aluno a1 = new Aluno();
+a1.Nome = "Eduardo";
+a1.Idade = 24;
+a1.Nota = 10;
+a1.Apresentar();
