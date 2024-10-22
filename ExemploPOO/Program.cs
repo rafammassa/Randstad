@@ -23,3 +23,7 @@ p1.Nome = "Paloma";
 p1.Idade = 30;
 p1.Salario = 1000;
 p1.Apresentar();
+
+Corrente c = new Corrente();
+c.Creditar(500);
+c.ExibirSaldo();
