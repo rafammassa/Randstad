@@ -10,5 +10,9 @@ namespace ExemploPOO.Models
         public Diretor(string nome) : base(nome){
 
         }
+        public override void Apresentar()
+        {
+            Console.WriteLine($"Diretor");
+        }
     }
 }
