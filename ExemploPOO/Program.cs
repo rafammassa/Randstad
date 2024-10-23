@@ -1,4 +1,5 @@
-﻿using ExemploPOO.Models;
+﻿using ExemploPOO.Interfaces;
+using ExemploPOO.Models;
 
 //Pessoa p1 = new Pessoa();
 //p1.Nome = "Rafaella";
@@ -25,3 +26,9 @@ p1.Apresentar();
 Corrente c = new Corrente();
 c.Creditar(500);
 c.ExibirSaldo();
+
+Computador pc = new Computador();
+Console.WriteLine(pc.ToString());
+
+ICalculadora calc = new Calculadora();
+Console.WriteLine(calc.Multiplicar(3, 9));
